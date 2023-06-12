@@ -14,12 +14,56 @@ body {
     color: var(--primary-slate);
 }
 
+p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
                                  /* Header */
 
-/* .header{
-    background-color: var(--primary-white);
-} */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header .list {
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin-right: auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    justify-content: space-between;
+}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -30,6 +74,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 76px;
 }
 
 .studio-color {
@@ -76,6 +124,14 @@ font-style: normal;
     color: var(--primary-slate);
     list-style: none;
     font-style: normal;
+}
+
+.header-contacts .list {
+    display: flex;
+    max-width: 344px;
+    gap: 40px;
+    padding: 0;
+    margin-left: auto;
 }
 
 /* .contacts-link {
@@ -135,6 +191,18 @@ font-style: normal;
 
 .hero-section{
     background-color: var(--primary-navy-blue);
+    /* width: 100%;
+    max-width: auto; */
+    /* padding: 188px 472px 292px 472px; */
+}
+
+.hero-container {
+    padding: 188px 472px 188px 472px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 500px;
 }
 
 .hero-title {
@@ -146,6 +214,8 @@ font-style: normal;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-white);
+    width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -158,6 +228,13 @@ font-style: normal;
     color: var(--primary-white);
     background-color: var(--primary-blue);
     cursor: pointer;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* max-width: 169px;
+    height: 56px; */
 }
 
 .hero-button:hover,
