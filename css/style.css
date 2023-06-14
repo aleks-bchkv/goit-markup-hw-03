@@ -35,10 +35,9 @@ img {
 }
 
 .container {
-    width: 100%;
-    max-width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1158px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     margin: 0 auto;
 }
 
@@ -48,6 +47,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -58,13 +58,14 @@ img {
 .header .list {
     display: flex;
     gap: 40px;
-    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: auto;
 }
 
 .header-nav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-grow: 1;
     justify-content: space-between;
 }
