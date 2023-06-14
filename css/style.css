@@ -298,7 +298,9 @@ font-style: normal;
 
 /* Index page -  What are we doing Section*/
 
-/* .doing-section {} */
+.doing-section {
+    padding-bottom: 120px;
+}
 
 .doing-title {
     font-family: 'Roboto', sans-serif;
@@ -310,13 +312,18 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-navy-blue);
+    margin-bottom: 72px;
 }
 
 .doing-section .list {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
-/* .doing-list-item {} */
+.doing-list-item {
+    width: calc((100% - 48px) / 3);
+}
 
 /* img? */
 
