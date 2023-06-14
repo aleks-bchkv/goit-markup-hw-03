@@ -261,12 +261,14 @@ font-style: normal;
 .benefits-section {
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
 
 .benefits-section .list {
     list-style: none;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 /* .benefits-list-item {} */
@@ -290,7 +292,6 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-slate);
-    width: calc((100% - 72px) / 4);
 }
 
 /* Index page -  What are we doing Section*/
