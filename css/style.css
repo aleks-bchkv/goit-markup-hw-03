@@ -403,7 +403,7 @@ font-style: normal;
     padding-bottom: 120px;
 }
 
-.portfolio-page .filter {
+.portfolio-page .filter.list {
     display: flex;
     justify-content: center;
     gap: 24px;
